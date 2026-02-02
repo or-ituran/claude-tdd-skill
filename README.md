@@ -15,13 +15,13 @@ An interactive Test-Driven Development workflow for [Claude Code](https://docs.a
 ### Linux / macOS / WSL
 
 ```bash
-git clone https://github.com/orgol-ituran/claude-tdd-skill.git ~/.claude/skills/tdd
+git clone https://github.com/or-ituran/claude-tdd-skill.git ~/.claude/skills/tdd
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/orgol-ituran/claude-tdd-skill.git $env:USERPROFILE\.claude\skills\tdd
+git clone https://github.com/or-ituran/claude-tdd-skill.git $env:USERPROFILE\.claude\skills\tdd
 ```
 
 ## Usage
