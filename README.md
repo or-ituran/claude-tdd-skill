@@ -16,13 +16,17 @@ An interactive Test-Driven Development workflow for [Claude Code](https://docs.a
 
 ```bash
 git clone https://github.com/or-ituran/claude-tdd-skill.git ~/.claude/skills/tdd
+cd ~/.claude/skills/tdd && chmod +x setup.sh && ./setup.sh
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
 git clone https://github.com/or-ituran/claude-tdd-skill.git $env:USERPROFILE\.claude\skills\tdd
+cd $env:USERPROFILE\.claude\skills\tdd; .\setup.ps1
 ```
+
+> **Note:** The setup script creates symlinks from `~/.claude/agents/` to the skill's agents folder. On Windows, you may need to run PowerShell as Administrator or enable Developer Mode for symlinks to work.
 
 ## Usage
 
